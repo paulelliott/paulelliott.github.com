@@ -1,0 +1,17 @@
+body {
+  font-family: helvetica, arial, freesans, clean, sans-serif;
+}
+
+a {
+  color: #4183C4
+}
+
+#site {
+  width: 958px;
+  margin: 0 auto;
+}
+
+#right {
+  width: 15%;
+  float: right;
+}
