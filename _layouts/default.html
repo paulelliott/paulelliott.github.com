@@ -2,23 +2,23 @@
 <html>
   <head>
     <title>Coding Frontier - {{ page.title }}</title>
-    <link href="css/global.css" rel="stylesheet" type="text/css" />
+    <link href="/css/global.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <div id="wrapper">
-        <div id='right'>
-          <img src='http://www.gravatar.com/avatar/98292675163b09c369e097cbeef92a10.png' alt='Profile Image'/>
-          <p>Paul Elliott</p>
-          <p>I'm a Rocket Surgeon at Hashrocket in Jacksonville Beach, FL</p>
-          <p><a href="http://twitter.com/p_elliott">Twitter</a></p>
-          <p><a href="http://github.com/paulelliott">Github</a></p>
-          <h4>Other Posts</h4>
-          {% for post in site.posts %}
-          <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-          {% endfor %}
-          <p><a href="http://codingfrontier.posterous.com">Older Posts</a></p>
-        </div>
+      <div id='right'>
+        <img src='http://www.gravatar.com/avatar/98292675163b09c369e097cbeef92a10.png' alt='Profile Image'/>
+        <p>Paul Elliott</p>
+        <p>I'm a Rocket Surgeon at Hashrocket in Jacksonville Beach, FL</p>
+        <p><a href="http://twitter.com/p_elliott">Twitter</a></p>
+        <p><a href="http://github.com/paulelliott">Github</a></p>
+        <h4>Other Posts</h4>
+        {% for post in site.posts %}
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        {% endfor %}
+        <p><a href="http://codingfrontier.posterous.com">Older Posts</a></p>
+      </div>
 
       <div id='site'>
         <h1>Coding Frontier</h1>

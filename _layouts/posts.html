@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <div id='site'>
+    <div id='wrapper'>
       <h1>{{ page.title }}</h1>
 
       <div id='right'>
@@ -21,7 +21,8 @@
         {% endfor %}
         <p><a href="http://codingfrontier.posterous.com">Older Posts</a></p>
       </div>
-      <div id='left'>
+
+      <div id='site'>
         {{ content }}
 
         <div id="disqus_thread"></div>
