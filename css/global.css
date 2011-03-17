@@ -1,24 +1,72 @@
-body {
-  font-family: helvetica, arial, freesans, clean, sans-serif;
-  font-size: .9em 
-  line-height: 180%
-}
+@import url("whitespace-reset.css");
 
-a {
-  color: #4183C4
-}
+body {
+  font: normal 14px Helvetica, Arial, freesans, clean, sans-serif;
+  color: #333333; }
+
+a { color: #4183C4; }
+p {
+  padding: 0 0 20px 0;
+  line-height: 150%; }
 
 #wrapper {
   width: 900px;
-  margin: 20px auto
-}
+  padding: 0 25px;
+  margin: 20px auto; }
+  #wrapper > h1 {
+    padding: 0 0 30px 0;
+    font-size: 24px; }
 
-#site {
+#main {
   width: 700px;
-  float: left;
-}
+  float: left; }
+  #main article + article {
+    padding: 20px 0 0 0;
+    border-top: 1px solid #d7d7d7; }
+  #main header { padding: 0 0 15px 0; }
+    #main header h1 {
+      padding: 0 0 5px 0;
+      font-size: 18px; }
+    #main header p {
+      padding: 0;
+      font-size: 12px; }
+  #main article h2 {
+    padding: 0 0 10px 0;
+    font-size: 16px; }
+  #main article h3 {
+    padding: 0 0 5px 0;
+    line-height: 150%; }
+  #main article pre { padding: 0 0 20px 0; }
+  #main article code {
+    padding: 2px 5px;
+    color: #ffffff;
+    background: #555555; }
+    #main article pre code {
+      display: block;
+      padding: 10px 15px;
+      border: 1px solid #cccccc; }
+  #main article ul,
+  #main article ol { padding: 0 0 15px 20px; }
+  #main article ul li { list-style: disc; }
+    #main article ul li li { list-style: circle; }
+      #main article ul li li li { list-style: square; }
+  #main article ol li { list-style: decimal; }
+    #main article ol li li { list-style: upper-alpha; }
+      #main article ol li li li { list-style: lower-alpha; }
 
-#right {
+#sidebar {
   width: 160px;
-  float: right;
-}
+  float: right; }
+  #sidebar > img {
+    display: block;
+    margin: 0 0 15px 0; }
+  #sidebar h1 {
+    padding: 0 0 20px 0;
+    font-size: 18px; }
+    #sidebar article h1 {
+      padding: 0 0 15px 0;
+      font-size: 16px; }
+  #sidebar ul { padding: 0 0 25px 15px; }
+  #sidebar li {
+    padding: 0 0 8px 0;
+    list-style: disc; }
